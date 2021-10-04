@@ -1,9 +1,6 @@
 
 const urlBase = "https://fcawebbook.herokuapp.com"
 
-
-
-
 window.onload = () => {
     // References to HTML objects   
     const btnParticipant = document.getElementById("btnParticipant")

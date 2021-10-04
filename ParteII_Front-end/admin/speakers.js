@@ -6,7 +6,6 @@ window.onload = () => {
     const tblSpeakers = document.getElementById("tblSpeakers")
     const frmSpeaker = document.getElementById("frmSpeaker")
 
-
     frmSpeaker.addEventListener("submit", async (event) => {
         event.preventDefault()
         const txtName = document.getElementById("txtName").value
